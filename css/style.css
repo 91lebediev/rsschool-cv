@@ -254,3 +254,44 @@ color: #FB6D3A;
     line-height: 24px;
     color: #fff;
  }
+
+ .footer-content{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   background-color: #1E2939;
+   width: 1400px;
+   height: 100px;
+ }
+
+.logo{
+   width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 30px;
+} 
+
+.course-link{
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    transition: 0.5c;
+}
+
+.course-link:hover{
+    color: #595959;
+}
+
+.date-time{
+    padding: 0 400px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+}
