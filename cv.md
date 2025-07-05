@@ -1,5 +1,5 @@
 # Liebiediev Vasyl
-Email: _lebedev.vasiliy.1991@gmail.com_   
+Email: 91v.lebediev@gmail.com   
 Tel:+380966273903    
 Zaporizhzhia, Ukraine
 
