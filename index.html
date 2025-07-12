@@ -4,8 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <main class="main">
+        <header class="header">
+            <div class="header__inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__link">Contacts</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about__me" class="menu__link">About me</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#skills" class="menu__link">Skills</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#projects" class="menu__link">Projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#education" class="menu__link">Education</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#work__experience" class="menu__link">Work experience</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main__content__container">   
+            <div class="main__content">
+                <section class="about__me">
+                    <h2 class="about__me__profession">Front-End Developer</h2>
+                    <h1 class="about__me__name">Vasyl Lebediev</h1>
+                    <p class="about__me__description">
+                        My goal is the desire to work in a team of And, of course, keep
+                        learning.
+                    </p>
+                </section>
+                <section class="project__section">
+                    <h3 class="main__content__title">Projects</h3>
+                    <ol class="project__list">
+                        <li class="project__item">
+                            <a href="https://91lebediev.github.io/rsschool-cv/" class="project__link">
+                                https://91lebediev.github.io/rsschool-cv/
+                            </a>
+                        </li>
+                    </ol>
+                </section>
+                <section class="work__experience">
+                    <h3 class="main__content__title">Work Experience</h3>
+                    <p class="main__content__description">
+                        Сhain of stores "Dnipro-M"
+                        <span class="work__position">Shop assistant</span>
+                    </p>
+                    <p class="work__period">
+                        October 2021 - Present day
+                    </p>
+                </section>
+                <section class="education">
+                    <h3 class="main__content__title">Education</h3>
+                    <p class="education__university">
+                        Crimean Institute of Information and Printing Technologies from
+                        the Ukrainian Academy of Printing.
+                    </p>
+                    <p class="education__faculty">
+                        Engineer for automated production control systems
+                    </p>
+                    <p class="education__period">
+                        September 2008 - June 2013
+                    </p>
+                </section>
+            </div>
+            <aside class="sidebar__section">
+                <img src="img/myPhoto.jpg" alt="My Photo" class="my__photo">
+                <div class="sidebar__contacts">
+                    <h3 class="sidebar__title">
+                        Contats
+                    </h3>
+                    <span class="sidebar__text">C:</span>
+                    <a href="tel:+380966273903" class="sidebar__link">+380966273903</a>
+                    <span class="sidebar__text">E:</span>
+                    <a href="mailto:91v.lebediev@gmail.com" class="sidebar__link">91v.lebediev@gmail.com</a>
+                </div>
+                <div class="sidebar__skills">
+                    <h3 class="sidebar__title">
+                        Tech Skills
+                    </h3>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <span class="sidebar__text">HTML</span>
+                        </li>
+                        <li class="skills__item">
+                            <span class="sidebar__text">CSS</span>
+                        </li>
+                        <li class="skills__item">
+                            <span class="sidebar__text">Git</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar__skills">
+                    <h3 class="sidebar__title">
+                        Soft Skills
+                    </h3>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <span class="sidebar__text">Teamwork</span>
+                        </li>
+                        <li class="skills__item">
+                            <span class="sidebar__text">Communication Skill</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+         <footer class="footer">
+            <div class="footer__inner">
+                <img src="img/logo.svg" alt="logo" class="logo">
+                <a href="https://rs.school/courses/javascript-preschool-ru" class="course__link">
+                    RSSchool JavaScript
+                </a>
+                <time datetime="12.07.2025" class="date__time">2025</time>
+            </div>
+         </footer>
+    </main>
 </body>
 </html>
