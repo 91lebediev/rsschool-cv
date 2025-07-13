@@ -1,0 +1,250 @@
+body{
+    background-color: #f5f7fa;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    background-color: #1E2939;
+    max-width: 1400px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    transition: 0.5c;
+}
+
+.menu__link:hover{
+    color: #595959;
+}
+
+.main__content__container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main__content{
+    width: 70%;
+    padding: 90px;
+}
+
+.about__me{
+    margin-bottom: 40px;
+}
+
+.about__me__profession{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about__me__name{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.about__me__description{
+    width: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project__section{
+    margin-bottom: 50px;
+}
+
+.main__content__title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.main__content__description{
+    width: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project__item{
+    color: #000;
+    font-weight: bold;
+}
+
+.project__link{
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
+}
+
+.work__experience{
+    margin-bottom: 50px;
+}
+.work__position{
+    color: #FB6D3A;
+}
+
+.work__period{
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education{
+    margin-bottom: 50px;
+}
+
+.education__university{
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+
+.education__fculty{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.education__period{
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.sidebar__section{
+    width: 30%;
+    padding: 40px 0;
+    background-color: #1E2939;
+}
+
+.my__photo{
+    border-radius: 50%;
+}
+
+.sidebar__contacts{
+    margin: 50px 0 0 40px;
+}
+
+.sidebar__title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.sidebar__text{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.sidebar__link{
+    color: #565E6A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sidebar__skills{
+    margin: 50px 0 0 40px;
+}
+
+.skills__list{
+    padding: 0 0 0 17px;
+}
+
+.skills__item{
+    color: #FB6D3A;
+}
+
+.footer{
+    background-color: #1E2939;
+    max-width: 1400px;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1E2939;
+    height: 100px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.course__link{
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    transition: 0.5c;
+}
+
+.course__link:hover{
+    color: #595959;
+}
+
+.date__time{
+    padding: 0 250px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+}
+
+.my__github{
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    transition: 0.5c;
+}
+
+.my__github:hover{
+    color: #595959;
+}
